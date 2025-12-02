@@ -69,3 +69,5 @@ Risultato finale:
 
 La Virtual Machine è stata distribuita correttamente, resa accessibile e protetta tramite NSG.
 Il laboratorio ha permesso di acquisire familiarità con i componenti core di Azure, fondamentali per la gestione di ambienti cloud in contesti reali.
+
+Link Screenshot della macchina configurata: Creazione-Windows-VM/Screenshot
