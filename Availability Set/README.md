@@ -107,3 +107,23 @@ Competenze acquisite:
 Distribuzione resiliente di Virtual Machine
 
 Best practice IaaS in ambienti enterprise
+
+Considerazioni sull’Alta Disponibilità e le Availability Zones
+
+In Azure è possibile progettare architetture ad alta disponibilità utilizzando Availability Sets e Availability Zones, con l’obiettivo di garantire la continuità delle applicazioni anche in caso di guasti.
+
+Le Availability Zones permettono di distribuire più Virtual Machine su zone fisicamente separate all’interno della stessa regione Azure.
+In questo modo, le applicazioni possono essere eseguite contemporaneamente su più macchine, riducendo il rischio di interruzione del servizio.
+
+Se una delle macchine o una zona dovesse subire un malfunzionamento, le altre VM continuano a eseguire l’applicazione, garantendo operatività continua e ridondanza.
+Questa architettura è comunemente utilizzata in ambienti di produzione per applicazioni critiche che richiedono elevata affidabilità.
+
+La combinazione di:
+
+più VM in esecuzione
+
+distribuzione su domini o zone differenti
+
+servizi applicativi replicati
+
+consente di migliorare la resilienza complessiva del sistema e di ridurre significativamente i tempi di inattività.
